@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    background-color: white;
+    height: 80px;
+
+
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo1 {
+
+    padding-bottom: 8px;
+    padding-right: 111px;
+    height: 40px;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 0;
+    margin-top: 18px;
+
+}
+
+.inline li {
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'ui-sans-serif';
+    font-weight: 600;
+    letter-spacing: 1.73px;
+    color: #000;
+}
+
+.blue {
+    color: #3ebbd2;
+    vertical-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'ui-sans-serif';
+    font-weight: 600;
+    letter-spacing: 1.73px;
+}
+
+.background1 {
+    padding-top: 1px;
+    margin-top: auto;
+    background-image: url(12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 630px;
+}
+
+.heading1 {
+    margin-top: 10px;
+    padding-left: 70px;
+    font-size: 80px;
+    color: white;
+    font-family: 'ui-sans-serif';
+}
+
+.sub1 {
+    margin-top: -40px;
+    padding-left: 70px;
+    font-size: 30px;
+    color: white;
+    font-family: 'ui-sans-serif';
+}
+
+.button0 button {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 155px;
+    background: transparent;
+    padding: 9px 27px;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 34px;
+    border: 1px solid;
+    height: 35px;
+    color: white;
+    font-size: 14px;
+}
+
+.play {
+    padding-top: 32px;
+    height: 50px;
+    padding-left: 81px;
+    width: 141px;
+}
+
+.google {
+    padding-left: 5px;
+}
+
+.first {
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 54px;
+}
+
+.firsthead {
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    font-size: 31px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.subhead {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.heading2 {
+    line-height: normal;
+    padding-top: 85px;
+    padding-left: 95px;
+}
+
+.heading3 {
+    font-size: 45px;
+    color: #000;
+    font-weight: 700;
+}
+
+.subhead2 {
+    font-size: 21px;
+}
+
+.common {
+    display: flex;
+
+}
+
+.top {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.images {
+    display: flex;
+    padding: 100 100 0 100;
+    justify-content: space-evenly;
+}
+
+.all {
+    height: 215px;
+    width: 215px;
+    border-radius: 7%;
+
+
+}
+
+.head4 {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.sub4 {
+    margin: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.images4 {
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-evenly;
+}
+
+.all4 {
+    height: 170px;
+    width: 170px;
+    border-radius: 7%;
+}
+
+.head41 {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+
+.backblue {
+    display: flex;
+    margin: 150px 150px;
+
+    background-color: #3ebbd3;
+
+    height: 400px;
+    background-size: 300px;
+    border-radius: 15px;
+}
+
+.lastheading {
+    padding-left: 70px;
+    padding-top: 55px;
+    font-size: 48px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.lastsub {
+    padding-left: 70px;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.appstore {
+    padding-left: 70px;
+}
+
+.phone {
+    padding-left: 100px;
+}
+
+.phone {
+    margin: -40px 0 0 0;
+    height: 550px;
+}
+
+.dot {
+    margin-top: -72px;
+    ;
+    text-align: center;
+}
+
+.dot img {
+    height: 15px;
+    width: 15px;
+}
+
+.lady {
+    height: 417px;
+}
+
+.final2 {
+    display: flex;
+    justify-content: center;
+}
+
+.finalhead {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 75px;
+    font-family: sans-serif;
+}
+
+.finalsub {
+    font-size: 27px;
+    padding-left: 75px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.email {
+    margin-left: 71px;
+    padding-left: 35px;
+    height: 42px;
+    width: 250px;
+    border-radius: 15px 0 0 15px;
+    padding-right: 28px;
+    border: 1px solid;
+    border-color: #3ebbd3;
+}
+
+::placeholder {
+
+    font-size: 20px;
+}
+
+.final6 {
+    display: flex;
+}
+
+.button4 .button5 {
+    display: inline;
+    background-color: #3ebbd3;
+    height: 46px;
+    width: 110px;
+    border-radius: 0 14px 14px 0;
+}
+.finalflex{
+    display: flex; 
+}
+.backgroundblue {
+    padding-top: 100px;
+    margin-top: -4px;
+    background-color: #3ebbd2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.endimages {
+
+    padding-left: 105px;
+
+}
+
+.endimage1 {
+    padding-bottom: 30px;
+}
+
+.endimage2 {
+    padding-bottom: 30px;
+
+}
+
+.endhead {
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+.logo4
+{
+    padding-right: 25px;
+}
+.logo5
+{
+    width: 110px;
+    height: 33px;
+}
+.endbody {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.endimages3 {
+    padding-left: 100px;
+}
+.endhead1
+{
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    padding-top: 10px;
+}
+.finish
+{
+    text-align: right;
+    margin: 0;
+    padding-right: 250px;
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color:#ffff;
+}
+.buttonc{
+    position: fixed;
+    top: 150px;
+    right: 45px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bsize
+{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #000;
+    
+}
