@@ -149,16 +149,20 @@ body {
 
 .common {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
 }
 
 .top {
-    padding-top: 50px;
     padding-left: 100px;
-    padding-bottom: 30px;
     font-weight: 700;
     font-size: 25px;
     font-family: sans-serif;
+}
+
+.end {
+    padding-right: 100px;
 }
 
 .images {
@@ -320,9 +324,11 @@ body {
     width: 110px;
     border-radius: 0 14px 14px 0;
 }
-.finalflex{
-    display: flex; 
+
+.finalflex {
+    display: flex;
 }
+
 .backgroundblue {
     padding-top: 100px;
     margin-top: -4px;
@@ -354,15 +360,16 @@ body {
     color: white;
 
 }
-.logo4
-{
+
+.logo4 {
     padding-right: 25px;
 }
-.logo5
-{
+
+.logo5 {
     width: 110px;
     height: 33px;
 }
+
 .endbody {
     font-size: 18px;
     font-family: sans-serif;
@@ -373,25 +380,26 @@ body {
 .endimages3 {
     padding-left: 100px;
 }
-.endhead1
-{
+
+.endhead1 {
     font-size: 21px;
     font-family: sans-serif;
     font-weight: 600;
     color: white;
     padding-top: 10px;
 }
-.finish
-{
+
+.finish {
     text-align: right;
     margin: 0;
     padding-right: 250px;
     padding-top: 50px;
     font-size: 15px;
     font-family: sans-serif;
-    color:#ffff;
+    color: #ffff;
 }
-.buttonc{
+
+.buttonc {
     position: fixed;
     top: 150px;
     right: 45px;
@@ -399,8 +407,7 @@ body {
     color: #fff;
 }
 
-.bsize
-{
+.bsize {
     background: white;
     display: flex;
     justify-content: center;
@@ -410,5 +417,5 @@ body {
     border-radius: 50px;
     font-size: 20px;
     color: #000;
-    
+
 }
